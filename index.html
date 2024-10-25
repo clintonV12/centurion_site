@@ -37,15 +37,11 @@
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
 
-    <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
-
     <!-- Page CSS -->
 
     <!-- Helpers -->
     <script src="assets/vendor/js/helpers.js"></script>
 
-    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="assets/js/config.js"></script>
   </head>
 
@@ -65,36 +61,36 @@
           <div class="menu-inner-shadow"></div>
 
           <ul class="menu-inner py-1">
-            <!-- Dashboard -->
+
             <!-- Layouts -->
             <li class="menu-item active">
-              <a href="#" class="menu-link menu-toggle">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-layer"></i>
-                <div data-i18n="Layouts">Our Services</div>
+                <div data-i18n="Services">Our Services</div>
               </a>
 
               <ul class="menu-sub" >
                 <li class="menu-item">
                   <a href="https://pay.centurionbd.com/" target="_blank" class="menu-link">
-                    <div data-i18n="Without menu">Trusted Payments</div>
+                    <div data-i18n="Trusted-Pay">Trusted Payments</div>
                   </a>
                 </li>
                 <li class="menu-item">
                   <a href="https://smartticket.co.za/" target="_blank" class="menu-link">
-                    <div data-i18n="Without navbar">Smart Ticket</div>
+                    <div data-i18n="Smart-ticket">Smart Ticket</div>
                   </a>
                 </li>
                 <li class="menu-item">
                   <a href="#" target="_blank" class="menu-link">
-                    <div data-i18n="Without navbar">Airtime Purchase</div>
+                    <div data-i18n="Airtime-puchase">Airtime Purchase</div>
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="menu-item">
+            <li class="menu-item active">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-detail"></i>
-                <div data-i18n="Layouts">User Guides</div>
+                <div data-i18n="User-Guide">User Guides</div>
               </a>
 
               <ul class="menu-sub">
@@ -137,19 +133,19 @@
             <div class="navbar-nav align-items-center">
               <li class="nav-item lh-1 me-3">
                   <a href="#" class="text-white fw-bold fs-4">
-                    Centurion Technologies</a
+                    <span>Centurion</span></a
                   >
                 </li>
             </div>
 
             <ul class="navbar-nav flex-row align-items-center ms-auto">
                 <li class="nav-item lh-1 me-3">
-                  <a href="#" class="text-white">
+                  <a href="https://www.facebook.com/profile.php?id=61567135983522&mibextid=ZbWKwL" class="text-white">
                     <i class="bx bxl-facebook-circle bx-sm"></i></a
                   >
                 </li>
                 <li class="nav-item lh-1 me-3">
-                  <a href="#" class="text-white">
+                  <a href="https://instagram.com/Centurion_Technologies" class="text-white">
                     <i class="bx bxl-instagram bx-sm"></i></a
                   >
                 </li>
@@ -177,12 +173,16 @@
                     <div class="carousel-item active">
                       <div class="row">
                         <div class="col-md-4 col-12">
-                          <div style="border-bottom-right-radius: 35%;" class="card shadow-lg border border-info bg-transparent mb-1 h-auto">
-                            <div class="card-body">
-                              <h5 class="card-title fs-3 fw-bold" style="color:#0080ff">Individual Services</h5>
+                          <div style="border-bottom-right-radius: 35%;" class="card shadow-lg border border-info bg-white mb-3 h-auto">
+                            <div class="card-body bg-light m-2 border border-info" style="border-bottom-right-radius: 35%;">
+                              <h5 class="card-title fs-3 fw-bold" style="color:#0080ff"><span><i class="bx bx-user bx-sm"></i> Individual Services 
+                                </span>
+                              </h5>
                               <p class="card-text text-dark">
-                                Buyers are hesitant to pay upfront due to the fear of non-delivery, while service providers fear non-payment despite delivering goods or services.</p> 
-                                <p class="card-text text-dark">To bridge this gap, a trusted payment solution is essential. This solution acts as a middle player, holding funds in escrow until certain conditions are met, ensuring both parties’ interests are protected.
+                                Our individual services are made up of services which are specifically designed for the individual client. These services are meant to provide the customer with convinience on a daily basis.
+                              </p>
+                              <p class="card-text text-dark">
+                                This include services for buying event tickets, buying airtime and payment services. Most our services are ready to use without requiring registration.
                               </p>
                             </div>
                           </div>
@@ -192,9 +192,10 @@
                             <div class="col-md-6 col-xl-6">
                               <div class="card bg-dark text-center text-white mb-3">
                                 <div class="card-body">
-                                  <h5 class="card-title text-white">Trusted Payments</h5>
+                                  <h5 class="card-title text-white">Trusted Payments
+                                  </h5>
                                   <p class="card-text">A an escrow account payment platform for safer transactions.</p>
-                                  <a href="https://pay.centurionbd.com/" class="btn btn-primary rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="https://pay.centurionbd.com/" class="btn btn-primary rounded-pill fw-bold" style="background-color:#0080ff">Try Now<span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -203,7 +204,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">Smart Ticket</h5>
                                   <p class="card-text">Purchase event tickets with ease and convinience through smart ticket.</p>
-                                  <a href="https://smartticket.co.za/" class="btn btn-info rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="https://smartticket.co.za/" class="btn btn-info rounded-pill fw-bold">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -212,7 +213,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">Airtime</h5>
                                   <p class="card-text">Purchase airtime for both MTN and Eswatini mobile</p>
-                                  <a href="#" class="btn btn-info rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="#" class="btn btn-info rounded-pill fw-bold">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -221,7 +222,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">More...</h5>
                                   <p class="card-text">More services on the way, watch this space.</p>
-                                  <a href="#" class="btn btn-primary rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="#" class="btn btn-primary rounded-pill fw-bold" style="background-color:#0080ff">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -233,9 +234,12 @@
                     <div class="carousel-item">
                       <div class="row">
                         <div class="col-md-4 col-12">
-                          <div style="border-bottom-right-radius: 35%;" class="card shadow-lg border border-success bg-transparent mb-1 h-auto">
-                            <div class="card-body">
-                              <h5 class="card-title fs-3 fw-bold" style="color:#0080ff">Business Services</h5>
+                          <div style="border-bottom-right-radius: 35%;" class="card shadow-lg border border-success bg-white mb-3 h-auto">
+                            <div class="card-body bg-light m-2 border border-success" style="border-bottom-right-radius: 35%;">
+                              <h5 class="card-title fs-3 fw-bold" style="color:#0080ff">
+                                <span><i class="bx bx-building bx-sm"></i> Business Services
+                                </span>
+                              </h5>
                               <p class="card-text text-dark">
                                 Buyers are hesitant to pay upfront due to the fear of non-delivery, while service providers fear non-payment despite delivering goods or services.</p> 
                                 <p class="card-text text-dark">To bridge this gap, a trusted payment solution is essential. This solution acts as a middle player, holding funds in escrow until certain conditions are met, ensuring both parties’ interests are protected.
@@ -250,7 +254,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">Trusted Payments</h5>
                                   <p class="card-text">A an escrow account payment platform for safer transactions.</p>
-                                  <a href="https://pay.centurionbd.com/" class="btn btn-info rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="https://pay.centurionbd.com/" class="btn btn-info rounded-pill fw-bold">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -259,7 +263,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">Smart Ticket</h5>
                                   <p class="card-text">Purchase event tickets with ease and convinience through smart ticket.</p>
-                                  <a href="#" class="btn btn-primary rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="#" class="btn btn-primary rounded-pill fw-bold" style="background-color:#0080ff">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -268,7 +272,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">Airtime</h5>
                                   <p class="card-text">Purchase airtime for both MTN and Eswatini mobile</p>
-                                  <a href="#" class="btn btn-primary rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="#" class="btn btn-primary rounded-pill fw-bold" style="background-color:#0080ff">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -277,7 +281,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title text-white">More...</h5>
                                   <p class="card-text">More services on the way, watch this space.</p>
-                                  <a href="#" class="btn btn-info rounded-pill">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
+                                  <a href="#" class="btn btn-info rounded-pill fw-bold">Try Now <span class="tf-icons bx bx-caret-right"></span></a>
                                 </div>
                               </div>
                             </div>
@@ -291,41 +295,54 @@
                 
               </div>
 
+              <div class="divider"></div>
               <div class="flex-row">
                 <h4 class="fw-bold py-3 mb-2 text-center fs-2 mt-5" style="color:#0080ff">About Us</h4>
                 <div class="row mb-5 mt-3">
                   <div class="col-md-6 col-xl-3">
-                    <div class="card shadow-lg border border-info mb-3">
-                      <div class="card-body">
-                        <h5 class="card-title">Support Team</h5>
-                        <p class="card-text">Client is our most important priority.</p>
+                    <div class="card shadow-lg border border-info mb-3 bg-white">
+                      <div class="card-body m-2 border border-info bg-light">
+                        <h5 class="card-title text-center">
+                          <i class="bx bx-support bx-md"></i>
+                          <span class="fw-bold">Support Team</span>
+                        </h5>
+                        <p class="card-text text-center">Convinient customer support.</p>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-md-6 col-xl-3">
-                    <div class="card shadow-lg border border-info mb-3">
-                      <div class="card-body">
-                        <h5 class="card-title">Intuitive UI</h5>
-                        <p class="card-text">Express your desires and needs to us.</p>
+                    <div class="card shadow-lg border border-info mb-3 bg-white">
+                      <div class="card-body m-2 border border-info bg-light">
+                        <h5 class="card-title text-center">
+                          <i class="bx bx-window bx-md"></i>
+                          <span class="fw-bold">Intuitive UI</span>
+                        </h5>
+                        <p class="card-text text-center">Intuitive and simple to use user-interface.</p>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-md-6 col-xl-3">
-                    <div class="card shadow-lg border border-info mb-3">
-                      <div class="card-body">
-                        <h5 class="card-title">Good Pricing</h5>
-                        <p class="card-text">Client is our most important priority.</p>
+                    <div class="card shadow-lg border border-info mb-3 bg-white">
+                      <div class="card-body m-2 border border-info bg-light">
+                        <h5 class="card-title text-center">
+                          <i class="bx bx-money bx-md"></i>
+                          <span class="fw-bold">Good Pricing</span>
+                        </h5>
+                        <p class="card-text text-center">Reasonable pricing of services.</p>
                       </div>
                     </div>
                   </div>
 
                   <div class="col-md-6 col-xl-3">
-                    <div class="card shadow-lg border border-info mb-3">
-                      <div class="card-body">
-                        <h5 class="card-title">Strongly Secured</h5>
-                        <p class="card-text">Client is our most important priority.</p>
+                    <div class="card shadow-lg border border-info mb-3 bg-white">
+                      <div class="card-body m-2 border border-info bg-light">
+                        <h5 class="card-title text-center">
+                          <i class="bx bx-lock bx-md"></i>
+                          <span class="fw-bold">Secured</span>
+                        </h5>
+                        <p class="card-text text-center">Strong cyber security to protect your data.</p>
                       </div>
                     </div>
                   </div>
@@ -333,6 +350,7 @@
                 </div>
               </div>
 
+              <div class="divider"></div>
               <div class="flex-row" id="contact">
                 <h4 class="fw-bold py-3 mb-4 text-center fs-2 mt-5" style="color:#0080ff">Contact Us</h4>
                 <div class="row mb-8">
@@ -342,16 +360,16 @@
                       <div class="col-md-6 col-12 mb-md-0 mb-4">
                         <h5 class="ps-3 fs-3 fw-bold" style="color:#0080ff">Centurion Technologies</h5>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item d-flex align-items-center" style="border: transparent;">
-                            <i class="bx bx-been-here me-2" style="color:#0080ff"></i>
+                          <li class="list-group-item d-flex align-items-center fw-bold" style="border: transparent;">
+                            <i class="bx bx-been-here bx-sm me-2" style="color:#0080ff"></i>
                             Centurion Technologies, Manzini, Eswatini 
                           </li>
-                          <li class="list-group-item d-flex align-items-center" style="border: transparent;">
-                            <i class="bx bx-envelope me-2" style="color:#0080ff"></i>
+                          <li class="list-group-item d-flex align-items-center fw-bold" style="border: transparent;">
+                            <i class="bx bx-envelope bx-sm me-2" style="color:#0080ff"></i>
                             info@centurionbd.com
                           </li>
-                          <li class="list-group-item d-flex align-items-center" style="border: transparent;">
-                            <i class="bx bx-phone me-2" style="color:#0080ff"></i>
+                          <li class="list-group-item d-flex align-items-center fw-bold" style="border: transparent;">
+                            <i class="bx bx-phone bx-sm me-2" style="color:#0080ff"></i>
                             7600 0000 (Support)
                           </li>
                         </ul>
@@ -364,7 +382,7 @@
                             class="form-control fs-4"
                             placeholder="Email Address"
                           />
-                          <button style="border-left: transparent; border-bottom-right-radius: 30px; border-top-right-radius: 30px;" class="btn btn-primary fs-4 text-white" type="button">Join Now</button>
+                          <button style="border-left: transparent; border-bottom-right-radius: 30px; border-top-right-radius: 30px; background-color:#0080ff" class="btn btn-primary fs-4 text-white" type="button">Join Now</button>
                         </div>
                       </div>
                     </div>
@@ -375,10 +393,10 @@
             <!-- / Content -->
 
             <!-- Footer -->
-            <footer class="content-footer footer bg-black text-white mt-5">
+            <footer class="content-footer footer bg-dark text-white mt-5">
               <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
                 <div class="mb-2 mb-md-0">
-                  All rights Reserved © Centurion Technologies
+                  All rights Reserved <i class="bx bx-copyright"></i> Centurion Technologies
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
@@ -410,16 +428,8 @@
     <script src="assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
-    <!-- Vendors JS -->
-    <script src="assets/vendor/libs/apex-charts/apexcharts.js"></script>
-
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
-    <!-- Page JS -->
-    <script src="assets/js/dashboards-analytics.js"></script>
-
-    <!-- Place this tag in your head or just before your close body tag. -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>

@@ -14947,7 +14947,7 @@ body {
 }
 
 .menu-inner {
-  display: inline-block;
+  display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0;
@@ -15034,7 +15034,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   transition: background-color 0.3s;
 }
 .menu-item.open > .menu-sub {
-  display: flex;
+  display: none;
 }
 
 .menu-toggle::after {
